@@ -1,13 +1,173 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#app_body{
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#stock_graph{
+	position: fixed;
+	top:50px;
+	left:200px;
+	background-color:white;
+	border: 5px solid beige;
+	display: none;
+}
+
+.create_portfolio{
+	color: darkgreen;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.create_portfolio input{
+	color: darkgreen;
+
+	border: 2px solid darkgreen;
+	padding-left: 8px;
+}
+
+.portfolio_header{
+	display: flex;
+
+	justify-content: space-around;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#portfolio_name{
+	font-size: 26px;
+	margin:0 7.5%;
+}
+
+#delete_portfolio{
+
+	display: inline-flex;
+	justify-content: space-between;
+	margin-left:100px;
+
+}
+
+.portfolio{
+    display: inline-block;
+    justify-content: space-evenly;
+	color:darkgreen;
+	background-color: #d3d0a9;
+	border:2px solid #ffffff;
+	margin-left: 3%;
+	height:400px;
+	width: 500px;
+}
+
+#btn-usd{
+margin:0 10%;
+}
+
+#stock_table_header{
+display: block;
+font-size: 14px;
+}
+
+#stock_table_header th{
+width:100px;
+text-align: center;
+
+}
+
+#stock{
+display: block;
+height: 225px;
+overflow-y: auto;
+overflow-x: hidden;
+
+}
+
+.different_stocks{
+font-size: 14px;
+margin-bottom: 4px;
+}
+
+#stock td{
+width:110px;
+text-align: center;
+}
+
+.react-datalist{
+z-index: 1;
+}
+
+.react-datalist-container{
+border-style: none;
+}
+
+.react-datalist-input{
+width:100%;
+//width: 110px;
+border-style: none;
+}
+
+#quantity{
+width:100%;
+border-style: none;
+}
+
+.portfolio_sum{
+margin-bottom: 10px;
+}
+
+ th,td{
+text-align: center;
+}
+
+#graph_click{
+display: inline-flex;
+justify-content: space-between;
+margin-left:25px;
+}
+
+.stockList{
+margin-left: 20px;
+padding-left: 10px;
+margin-top: 16px;
+width:100px;
+height:380px;
+color: darkgreen;
+
+display: inline-block;
+float:left;
+overflow: scroll;
+}
+
+#graph_name{
+margin: 20px;
+}
+
+#graph_head{
+color: darkgreen;
+font-size: 20px	;
+margin:10px;
+}
+
+.line_chart{
+display: inline-block;
+margin-right: 20px;
+
+}
+.select_time{
+height:60px;
+}
+#starting_date_range{
+margin-left: 240px;
+margin-right: 80px;
+}
+#starting_date{
+margin-left: 10px;
+width:150px;
+}
+#ending_date{
+margin-left: 10px;
+width:150px;
+}
+.checker{
+list-style-type: none;
+}
+
+#btn_exit{
+float:right;
 }
