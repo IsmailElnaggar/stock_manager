@@ -45,12 +45,12 @@ class GraphDateRange extends React.Component {
 				<span id='starting_date_range'>Start Date
 					<input
 						// {["2019",this.getCurrentTime().slice(-5)].join('')} test
-						type="date" id="starting_date" defaultValue={["2019",this.get_CurrentTime().slice(-6)].join('')} ref='starting_date'
+						type="date" id="starting_time" defaultValue={["2019",this.get_CurrentTime().slice(-6)].join('')} ref='starting_time'
 						onChange={this.get_StartingDate.bind(this)}/>
 				</span>
 				<span id='ending_date_range'>End Date
 					<input
-						type="date" id="ending_date" defaultValue={this.get_CurrentTime()} ref='ending_date'
+						type="date" id="ending_time" defaultValue={this.get_CurrentTime()} ref='ending_time'
 						onChange={this.get_EndingDate.bind(this)}/>
 				</span>
 			</div>
@@ -115,7 +115,7 @@ export default class Graph extends React.Component {
 				var new_j = j.replace(/-/gi, '');
 
 				t_start = t_start.replace(/-/gi, '');
-// t_end wrong? check later
+// check later
 				t_end = t_end.replace( /-/gi, '');
 				if (new_j >= t_start) {
 					s_data.push({
@@ -138,7 +138,7 @@ export default class Graph extends React.Component {
 				//tickTimeDisplayFormat={'%x-'}
 				axisLabels={{x: 'Date by Month-Year', y: 'Value of Stock'}}
 				margin={{top: 10, right: 10, bottom: 50, left: 50}}
-
+				dataPoints
 				grid
 				verticalGrid
 				interpolate={'linear'}

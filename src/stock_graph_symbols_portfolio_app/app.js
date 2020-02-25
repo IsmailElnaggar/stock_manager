@@ -264,6 +264,7 @@ export default class App extends React.Component {
 	getStockCheckList(portfolioName) {
 		const portfolio = _.find(this.state.portfolios, portfolio => portfolio.name === portfolioName);
 		const stockNames = _.map(portfolio.stocks, stock => stock.stockName);
+		stockNames.sort()
 		var graph_stockList = [];
 		for (var i = 0; i < stockNames.length; i++) {
 			graph_stockList.push({
@@ -271,6 +272,7 @@ export default class App extends React.Component {
 				ifChecked: false
 			})
 		}
+		//.sort();
 		this.setState({
 			graph_stockList: graph_stockList,
 			graph_name: portfolio.name,
