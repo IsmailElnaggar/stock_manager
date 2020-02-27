@@ -69,3 +69,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # csdewas-project-2-IsmailElnaggar
 # csdewas-project-2-IsmailElnaggar
 # csdewas-project-2-IsmailElnaggar
+# stock_manager
