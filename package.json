@@ -1,6 +1,6 @@
 {
   "name": "spms_ismail_elnaggar",
-  "homepage": "https://it-teaching-abo-akademi.github.io/csdewas-project-2-IsmailElnaggar/",
+  "homepage": "https://ismailelnaggar.github.io/stock_manager",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
