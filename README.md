@@ -4,6 +4,8 @@ Testing useing Google Chrome.
 
 Link to deployed webpage : https://it-teaching-abo-akademi.github.io/csdewas-project-2-IsmailElnaggar/
 
+API used to fetch stock info: https://www.alphavantage.co/documentation
+
 Graph made with react easy chart.
 reference link:  https://experience-experiments.github.io/react-easy-chart/line-chart/index.html#introduction
 
