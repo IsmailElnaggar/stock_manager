@@ -11,7 +11,7 @@ reference link:  https://experience-experiments.github.io/react-easy-chart/line-
 
 
 
-Functional Requirements of SPMS 
+Project Functional Requirements :
 
 1. Create portfolio 10pt
 
@@ -22,12 +22,12 @@ c. A user should be able to create a decent number (min. 5-10) of portfolios
 
 2. Add stock to portfolio 10p 
 
-a. User must be able to add a stock to the portfolio by entering: i. the symbol of the stock ii. the number of shares he/she owns
+a. User must be able to add a stock to the portfolio by entering: i. the symbol of the stock and the number of shares he/she owns
 b. There is no limit on the number of stocks a portfolio can contain 
 
 3. View portfolio 10pt 
 
-a. The user must be able to view the purchase value and the current value of the stocks in the portfolio. The current values current value and the purchase value of the stocks should be fetched from a stock market exchange API. For simplicity, a Refresh button can be used. 
+a. The user must be able to view the purchase value of the stock. The purchase value of the stocks should be fetched from a stock market exchange API.
 b. The user must be able to change the currency between US dollar and Euro when displaying a portfolio (and its stocks). For simplicity, the USD/Euro exchange rate can be hardcoded (not fetched from an API). 
 c. The user must be able to view the total value of the portfolio and its stocks updated with the latest values in the currently selected currency.
 
