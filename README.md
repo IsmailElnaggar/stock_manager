@@ -15,6 +15,7 @@ Functional Requirements of SPMS
 
 a. The user can create an empty portfolio  
 b. User should be able to enter the portfolio name 
+
 c. A user should be able to create a decent number (min. 5-10) of portfolios
 
 2. Add stock to portfolio 10p 
