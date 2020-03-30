@@ -1,8 +1,6 @@
 School project for my master's degree program. Course was taken at Åbo Akademi University. First time using React for app development.
 
-Testing useing Google Chrome.
-
-Link to deployed webpage : https://it-teaching-abo-akademi.github.io/csdewas-project-2-IsmailElnaggar/
+Link to deployed webpage : https://it-teaching-abo-akademi.github.io/csdewas-project-2-IsmailElnaggar/ best to view in chrome
 
 API used to fetch stock info: https://www.alphavantage.co/documentation
 
